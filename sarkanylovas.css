@@ -29,6 +29,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 35px;
+  margin: 10px auto 10px auto;
 }
 
 h3 {
@@ -43,36 +44,45 @@ header {
     top: 0;
     right: 0;
     width: 100vw;
-    height: ;
+    height: 55px;
     background-color: #eee;
     text-align: center;
-    display: table;
     font-size: 20px;
   }
   
-  #header-nav li {
-    border-bottom: 1px;
-    font-size: 22.4px;
+#header-nav ul {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+  #header-nav a {
+    font-size: 35px;
     line-height:25px;
+    display: inline-block;
+    width: 32vw;
+    position: ;
+    text-decoration: none;
+    padding: 10px 0 10px 0;
+    width: 32vw;
+    height: 55px;
   }
 
   #header-nav {
-    display: table-cell;
-    vertical-align: middle;
+    display: table;
+    width: 100%
   }
-  
-  #header-nav a {
-    text-decoration: none;
-    display: block;
-    color: #8F6930;
+
+  #header-nav li {
+    display: inline-block;
   }
   
   #header-nav a:hover {
     background-color: #fff;
-    transition: background-color .3s ease-in-out;
+    transition: background-color .2s ease-in-out;
   }
   
-  #header-nav a.active {
+  #header-nav .active {
     background-color: #8F6930;
     color: #eee;
   }
@@ -89,7 +99,7 @@ header {
 .cardpicture {
     width: 100%;
     max-height: ;
-    border-radius: 5px;
+    border-radius: ;
 }
 
 .cardinfo {
@@ -102,7 +112,8 @@ header {
 }
   
 .charactericons img {
-  width: 15vw;
+  width: 14vw;
+  margin: 10px 0 10px 0;
 }
 
 .characters {
@@ -145,4 +156,8 @@ header {
   
   strong {
     font-weight: 700;
+  }
+
+  .footer-nav {
+    display: none;
   }
