@@ -119,12 +119,16 @@ header {
     background: white;
     box-shadow: 0px 0px 25px  black;
     border-radius: 6px;
-    margin: 50px 0 50px 0;
+    margin: 50px auto 50px auto;
 }
 
 .cardpicture {
     width: 100%;
     max-width: 1000px;
+}
+
+.cardpicture img{
+  width:100%
 }
 
 .cardinfo {
@@ -147,8 +151,7 @@ header {
 
 @media (min-width: 700px) {
   .card {
-  margin: 0 0 0 0;
-  border-radius: 0%;
+  width: 90vw;
   font-size: 0;
   }
 
@@ -158,9 +161,12 @@ header {
 
   .cardpicture {
     display: inline-block;
-    width: 40vw;
+    width: 45vw;
     vertical-align: top;
-    
+  }
+
+  .cardpicture img{
+    width:100%
   }
 
   .characters {
@@ -172,8 +178,9 @@ header {
 
   .cardinfo {
     display: inline-block;
-    width: 45vw;
+    width: 44vw;
     vertical-align: top;
+    text-align: center;
   }
 
   .charactericons img {
@@ -184,8 +191,12 @@ header {
   .cardcontent {
     display: inline-block;
     width: 100%;
-
+    font-size: 0;
+    text-align: left;
   }
+
+
+
 }
 
 
