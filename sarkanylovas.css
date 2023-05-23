@@ -100,11 +100,10 @@ header {
 /*kártya*/
 
 .card {
-    margin: 20px auto 20px auto;
     background: white;
     box-shadow: 0px 0px 25px  black;
     border-radius: 6px;
-    margin: 50px 10vw 0 10vw;
+    margin: 50px 10vw 50px 10vw;
 }
 
 .cardpicture {
