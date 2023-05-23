@@ -7,8 +7,7 @@
     font-family: 'Caveat', cursive;
     text-align: center;
     background-color: #ffe9d1;
-    width: 80vw;
-    margin: 100px auto 0 auto;
+    margin: 45px auto 0 auto;
 
 }
 
@@ -90,6 +89,14 @@ header {
     color: #eee;
   }
 
+
+/*szekciók formázása*/
+
+.section1 {
+  background-color: #c0916a79;
+  padding: 10px 10vw 10px 10vw;
+}
+
 /*kártya*/
 
 .card {
@@ -97,6 +104,7 @@ header {
     background: white;
     box-shadow: 0px 0px 25px  black;
     border-radius: 6px;
+    margin: 50px 10vw 0 10vw;
 }
 
 .cardpicture {
@@ -125,6 +133,8 @@ header {
 
 
 
+
+/*footer*/
 
 
   footer {
