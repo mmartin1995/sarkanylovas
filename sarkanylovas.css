@@ -96,6 +96,10 @@ header {
   padding: 10px 10vw 10px 10vw;
 }
 
+.sectionpicture {
+  width: 100%;
+}
+
 /*kártya*/
 
 .card {
@@ -107,8 +111,6 @@ header {
 
 .cardpicture {
     width: 100%;
-    max-height: ;
-    border-radius: ;
 }
 
 .cardinfo {
@@ -129,7 +131,41 @@ header {
   margin-top: 25px;;
 }
 
+@media (min-width: 600px) {
+  .card {
+  margin: 0 auto 0 auto;
+  border-radius: 0%;
+  font-size: 0;
+  }
 
+  .card div {
+  font-size: 25px;
+  }
+
+  .cardpicture {
+    display: inline-block;
+    width: 45vw;
+    vertical-align: top;
+    float: left;
+  }
+
+  .cardinfo {
+    display: block;
+    margin: auto;
+  }
+
+  .characters {
+    display: block;
+    width: ;
+    margin: auto;
+  }
+
+  .cardcontent {
+    display: inline-block;
+    width: 50vw;
+    vertical-align: top;
+  }
+}
 
 
 /*footer*/
