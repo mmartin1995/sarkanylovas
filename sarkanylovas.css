@@ -3,16 +3,12 @@
   }
   
   body {
-    font-size: 25px;
+    font-size: 5vw;
     font-family: 'Caveat', cursive;
     text-align: center;
     background-color: #ffe9d1;
     margin: 45px auto 0 auto;
 
-}
-
-img {
-    max-width: ;
 }
 
 a {
@@ -55,7 +51,6 @@ header {
     width: 100vw;
     background-color: #c0916a;
     text-align: center;
-    font-size: 20px;
     box-shadow:  0px 1px 10px  rgb(0, 0, 0);
     z-index: 1;
   }
@@ -66,7 +61,7 @@ header {
 }
 
   #header-nav a {
-    font-size: 25px;
+    font-size: 4vw;
     line-height:25px;
     display: block;
     height: 45px;
@@ -109,44 +104,44 @@ header {
 }
 
 .section2 {
-  margin: 50px auto 50px auto;
-  padding: 10px 5vw 10px 5vw;
+  margin: auto 5vw auto 5vw;
 }
 
-/*kártya*/
+/*kártya - főoldal*/
 
 .card {
     background: white;
     box-shadow: 0px 0px 25px  black;
     border-radius: 6px;
-    margin: 50px auto 50px auto;
+    margin: 25px auto 25px auto;
 }
 
 .cardpicture {
-    width: 100%;
-    max-width: 1000px;
 }
 
 .cardpicture img{
-  width:100%
+  width:100%;
+  border-radius: 6px;
+  max-width: 1000px;
 }
 
 .cardinfo {
     position: relative;
     background-color: hsla(0, 0%, 100%, 0.452);
+    padding: 0.5vw;
 }
 
 .card a {
   text-decoration: none;
 }
-  
-.charactericons img {
-  width: 14vw;
-  margin: 10px 0 10px 0;
-}
 
 .characters {
   margin-top: 25px;;
+}
+
+.charactericons img {
+  width: 14vw;
+  margin: 10px 0 10px 0;
 }
 
 @media (min-width: 700px) {
@@ -156,7 +151,7 @@ header {
   }
 
   .card div {
-  font-size: 25px;
+  font-size: 4vw;
   }
 
   .cardpicture {
@@ -167,13 +162,6 @@ header {
 
   .cardpicture img{
     width:100%
-  }
-
-  .characters {
-    width: 85vw;
-    vertical-align: bottom;
-    position: relative;
-    margin: 20px auto 20px auto;
   }
 
   .cardinfo {
@@ -195,10 +183,88 @@ header {
     text-align: left;
   }
 
+}
 
+/*kártya - karakterek*/
+
+.charactercard {
+  background: white;
+  box-shadow: 0px 0px 25px  black;
+  border-radius: 6px;
+  margin: 50px auto 50px auto;
+  padding: 3vw;
+  width: 85vw;
+}
+
+.characterpicture {
+}
+
+.characterpicture img{
+  width: 100%;
+  max-width: 1000px;
+  }
+
+.charactercard a {
+text-decoration: none;
+}
+
+
+
+@media (min-width: 700px) {
+  .charactercard {
+  width: 90vw;
+  padding: 1vw;
+  }
+
+  .charactercard div {
+  font-size: 4vw;
+  }
+
+  .characterpicture {
+    display: inline-block;
+    width: 40vw;
+    vertical-align: top;
+  }
+
+  .characterpicture img{
+    width:100%
+  }
+
+  .characterinfo {
+    display: inline-block;
+    width: 44vw;
+    vertical-align: top;
+    text-align: center;
+
+  }
 
 }
 
+
+/* Kártyák alján lévő táblázatok*/
+
+table {
+  margin: 10% auto auto auto;
+  width: 90%;
+}
+
+table .left {
+text-align: left;
+padding: 1vw;
+font-weight: bold;
+}
+
+table .right {
+text-align: right;
+padding: 1vw;
+}
+
+@media (min-width: 700px) {
+
+  table {
+    font-size: 3vw;
+  }
+}
 
 /*footer*/
 
