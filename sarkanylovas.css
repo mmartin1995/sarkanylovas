@@ -8,6 +8,7 @@
     text-align: center;
     background-color: #ffe9d1;
     margin: 45px auto 0 auto;
+    position: relative;
 
 }
 
@@ -17,8 +18,10 @@ a {
 }
 
 h1 {
-  font-size: 45px;
+  margin: 8vh auto 0 auto;
+  font-size: 7vw;
   font-weight: bold;
+  margin: auto 5vw auto 5vw;
 }
 
 h2 {  
@@ -46,14 +49,6 @@ h4 {
 /*navbar*/
 
 header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100vw;
-    background-color: #c0916a;
-    text-align: center;
-    box-shadow:  0px 1px 10px  rgb(0, 0, 0);
-    z-index: 1;
   }
   
 #header-nav ul {
@@ -62,8 +57,7 @@ header {
 }
 
   #header-nav a {
-    font-size: 4vw;
-    line-height:25px;
+    font-size: 25px;
     display: block;
     height: 45px;
     width: 100%;
@@ -73,6 +67,14 @@ header {
   }
 
   #header-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    background-color: #c0916a;
+    text-align: center;
+    box-shadow:  0px 1px 10px  rgb(0, 0, 0);
+    z-index: 1;
     display: table;
     width: 100%
   }
@@ -91,6 +93,13 @@ header {
     background-color: #8F6930;
   }
 
+  #navbardiv {
+    position: ;
+    width: 100vw;
+    height: .1px;
+    margin-bottom: auto;
+    background-color: black;
+  }
 
 /*szekciók formázása*/
 
@@ -105,7 +114,7 @@ header {
 }
 
 .section2 {
-  margin: auto auto auto auto;
+  margin: 0 auto auto auto;
 }
 
 /*kártya - főoldal*/
@@ -195,7 +204,7 @@ header {
   background: white;
   box-shadow: 0px 0px 25px  black;
   border-radius: 20px;
-  margin: 75px auto 50px auto;
+  margin: 15vw auto auto auto;
   padding: 4vw;
   width: 80vw;
 }
@@ -265,7 +274,11 @@ padding: 1vw;
 
 @media (min-width: 700px) {
 
-  table {
+  .cardinfo table {
+    font-size: 3vw;
+  }
+
+  .characterinfo table {
     font-size: 3vw;
   }
 }
