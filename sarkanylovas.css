@@ -23,13 +23,14 @@ h1 {
 
 h2 {  
   font-weight: bold;
-  font-size: 35px;
-  margin: 10px auto 10px auto;
+  font-size: 7vw;
+  margin: 5vw auto 5vw auto;
+  vertical-align: top;
 }
 
 h3 {
   font-weight: bold;
-  font-size: 35px;
+  font-size: 5vw;
   margin: 10px auto 10px auto;
 }
 
@@ -104,7 +105,7 @@ header {
 }
 
 .section2 {
-  margin: auto 5vw auto 5vw;
+  margin: auto auto auto auto;
 }
 
 /*kártya - főoldal*/
@@ -112,8 +113,9 @@ header {
 .card {
     background: white;
     box-shadow: 0px 0px 25px  black;
-    border-radius: 6px;
+    border-radius: 20px;
     margin: 25px auto 25px auto;
+    width: 80vw;
 }
 
 .cardpicture {
@@ -121,13 +123,13 @@ header {
 
 .cardpicture img{
   width:100%;
-  border-radius: 6px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
   max-width: 1000px;
 }
 
 .cardinfo {
     position: relative;
-    background-color: hsla(0, 0%, 100%, 0.452);
     padding: 0.5vw;
 }
 
@@ -161,7 +163,8 @@ header {
   }
 
   .cardpicture img{
-    width:100%
+    width:100%;
+    border-top-right-radius: 0;
   }
 
   .cardinfo {
@@ -169,6 +172,7 @@ header {
     width: 44vw;
     vertical-align: top;
     text-align: center;
+    border-top-right-radius: 20px;
   }
 
   .charactericons img {
@@ -190,10 +194,10 @@ header {
 .charactercard {
   background: white;
   box-shadow: 0px 0px 25px  black;
-  border-radius: 6px;
-  margin: 50px auto 50px auto;
-  padding: 3vw;
-  width: 85vw;
+  border-radius: 20px;
+  margin: 75px auto 50px auto;
+  padding: 4vw;
+  width: 80vw;
 }
 
 .characterpicture {
@@ -212,8 +216,8 @@ text-decoration: none;
 
 @media (min-width: 700px) {
   .charactercard {
-  width: 90vw;
-  padding: 1vw;
+  width: 85vw;
+  padding: 4vw;
   }
 
   .charactercard div {
@@ -222,7 +226,7 @@ text-decoration: none;
 
   .characterpicture {
     display: inline-block;
-    width: 40vw;
+    width: 35vw;
     vertical-align: top;
   }
 
@@ -232,7 +236,7 @@ text-decoration: none;
 
   .characterinfo {
     display: inline-block;
-    width: 44vw;
+    width: 40vw;
     vertical-align: top;
     text-align: center;
 
@@ -265,6 +269,21 @@ padding: 1vw;
     font-size: 3vw;
   }
 }
+
+
+/*kaland aloldal*/
+
+
+.adventuredescription {
+  margin: auto;
+  width: 80vw;
+}
+
+.adventuredescription div {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
 
 /*footer*/
 
