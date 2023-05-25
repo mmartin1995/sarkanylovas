@@ -24,6 +24,12 @@ h1 {
   margin: auto 5vw auto 5vw;
 }
 
+@media (min-width: 700px) {
+  h1 {
+    font-size: 4vw;
+  }
+}
+
 h2 {  
   font-weight: bold;
   font-size: 7vw;
@@ -227,6 +233,7 @@ text-decoration: none;
   .charactercard {
   width: 85vw;
   padding: 4vw;
+  margin: 8vw auto auto auto;
   }
 
   .charactercard div {
