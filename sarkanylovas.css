@@ -278,18 +278,16 @@ text-decoration: none;
 
 table {
   margin: 10% auto auto auto;
-  width: 90%;
+  width: 95%;
 }
 
 table .left {
 text-align: left;
-padding: 1vw;
 font-weight: bold;
 }
 
 table .right {
 text-align: right;
-padding: 1vw;
 }
 
 @media (min-width: 700px) {
