@@ -227,8 +227,16 @@ header {
 text-decoration: none;
 }
 
+@media (min-width: 700px) {
+  .charactercard {
+    max-width: 350px;
+    display: inline-block;
+    margin: 25px;
+  }
+}
 
 
+/*
 @media (min-width: 700px) {
   .charactercard {
   width: 85vw;
@@ -259,6 +267,7 @@ text-decoration: none;
   }
 
 }
+*/
 
 
 /* Kártyák alján lévő táblázatok*/
