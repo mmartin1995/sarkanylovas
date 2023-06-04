@@ -231,11 +231,11 @@ text-decoration: none;
     max-width: 350px;
     display: inline-block;
     margin: 25px;
+    padding: 25px;
   }
 
   .charactercard h2 {
     font-size: 70px;
-    padding: 25px;
   }
 
 }
