@@ -3,7 +3,6 @@
   }
   
   body {
-    font-size: 5vw;
     font-family: 'Caveat', cursive;
     text-align: center;
     background-color: #ffe9d1;
@@ -233,6 +232,11 @@ text-decoration: none;
     display: inline-block;
     margin: 25px;
   }
+
+  .charactercard h2 {
+    font-size: 70px;
+  }
+
 }
 
 
@@ -295,7 +299,7 @@ padding: 1vw;
   }
 
   .characterinfo table {
-    font-size: 3vw;
+    font-size: 35px;
   }
 }
 
