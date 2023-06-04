@@ -228,10 +228,10 @@ text-decoration: none;
 
 @media (min-width: 700px) {
   .charactercard {
-    max-width: 350px;
+    max-width: 400px;
     display: inline-block;
     margin: 25px;
-    padding: 25px;
+    padding: 30px;
   }
 
   .charactercard h2 {
