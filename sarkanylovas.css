@@ -305,6 +305,10 @@ text-align: right;
   .characterinfo table {
     font-size: 35px;
   }
+
+  .adventuredescription {
+    font-size: 3vw;
+  }
 }
 
 
