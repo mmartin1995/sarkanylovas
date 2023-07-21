@@ -296,20 +296,7 @@ table .right {
 text-align: right;
 }
 
-@media (min-width: 700px) {
 
-  .cardinfo table {
-    font-size: 3vw;
-  }
-
-  .characterinfo table {
-    font-size: 35px;
-  }
-
-  .adventuredescription {
-    font-size: 3vw;
-  }
-}
 
 
 /*kaland aloldal*/
@@ -365,4 +352,19 @@ text-align: right;
 
   .footer-nav {
     display: none;
+  }
+
+  @media (min-width: 700px) {
+
+    .cardinfo table {
+      font-size: 3vw;
+    }
+  
+    .characterinfo table {
+      font-size: 35px;
+    }
+  
+    .adventuredescription {
+      font-size: 2.5vw;
+    }
   }
