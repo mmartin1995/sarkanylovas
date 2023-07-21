@@ -314,6 +314,7 @@ text-align: right;
 .adventuredescription {
   margin: auto;
   width: 80vw;
+  font-size: 4.5vw;
 }
 
 .adventuredescription div {
