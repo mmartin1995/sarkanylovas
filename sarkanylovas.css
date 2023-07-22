@@ -314,18 +314,18 @@ text-align: right;
 
 .adventureinfo {
   max-width: 85vw;
-  font-size: 4.5vw;
+  font-size: 5.5vw;
   margin: auto;
 }
 
 .adventureinfo h2 {
-  font-size: 5vw;
+  font-size:;
 }
 
 .adventuredescription {
   margin: auto;
   width: 85vw;
-  font-size: 4.5vw;
+  font-size: 5.5vw;
 }
 
 .adventuredescription div {
