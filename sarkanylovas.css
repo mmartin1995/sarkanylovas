@@ -261,7 +261,7 @@ text-decoration: none;
 /* Kártyák alján lévő táblázatok*/
 
 table {
-  margin: 10% auto auto auto;
+  margin: 5% auto auto auto;
   width: 95%;
 }
 
@@ -312,12 +312,17 @@ ________________________________________________________________________________
 
   
   .adventureinfo {
-    max-width: 75vw;
-    font-size: 3vw;
+    width: 75vw;
+    font-size: 2.8vw;
+  }
+  
+  .adventureinfo h2 {
+    font-size: 3.5vw;
   }
 
   .adventuredescription {
-    font-size: 2.5vw;
+    font-size: 2.3vw;
+    width: 75vw;
   }
 
   .adventuredescription div::first-letter {
