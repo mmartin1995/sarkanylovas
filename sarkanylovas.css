@@ -153,7 +153,7 @@ header {
 }
 
 .characters {
-  margin-top: 25px;;
+  margin-top: 2vw;
 }
 
 .charactericons img {
@@ -257,39 +257,6 @@ text-decoration: none;
 
 }
 
-/*
-@media (min-width: 700px) {
-  .charactercard {
-  width: 85vw;
-  padding: 4vw;
-  margin: 8vw auto auto auto;
-  }
-
-  .charactercard div {
-  font-size: 4vw;
-  }
-
-  .characterpicture {
-    display: inline-block;
-    width: 35vw;
-    vertical-align: top;
-  }
-
-  .characterpicture img{
-    width:100%
-  }
-
-  .characterinfo {
-    display: inline-block;
-    width: 40vw;
-    vertical-align: top;
-    text-align: center;
-
-  }
-
-}
-*/
-
 
 /* Kártyák alján lévő táblázatok*/
 
@@ -310,7 +277,10 @@ text-align: right;
 
 
 
-/*---KALAND ALOLDAL---*/
+/*
+_________________________________________________________________________________________
+---KALAND ALOLDAL---
+*/
 
 .adventureinfo {
   max-width: 85vw;
@@ -319,7 +289,7 @@ text-align: right;
 }
 
 .adventureinfo h2 {
-  font-size:;
+  margin: 2.5vw auto;
 }
 
 .adventuredescription {
