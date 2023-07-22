@@ -322,6 +322,12 @@ ________________________________________________________________________________
   font-weight: bold;
 }
 
+.adventuredescription img {
+  width: 100%;
+  max-width: 100%;
+  margin: 1vw auto;
+}
+
 @media (min-width: 1024px) {
 
   
