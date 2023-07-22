@@ -245,6 +245,17 @@ text-decoration: none;
   }
 }
 
+@media (min-width: 700px) {
+
+  .cardinfo table {
+    font-size: 3vw;
+  }
+
+  .characterinfo table {
+    font-size: 35px;
+  }
+
+}
 
 /*
 @media (min-width: 700px) {
@@ -299,20 +310,50 @@ text-align: right;
 
 
 
-/*kaland aloldal*/
+/*---KALAND ALOLDAL---*/
 
+.adventureinfo {
+  max-width: 85vw;
+  font-size: 4.5vw;
+  margin: auto;
+}
+
+.adventureinfo h2 {
+  font-size: 5vw;
+}
 
 .adventuredescription {
   margin: auto;
-  width: 80vw;
+  width: 85vw;
   font-size: 4.5vw;
 }
 
 .adventuredescription div {
-  margin-top: 2vw;
-  margin-bottom: 2vw;
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw;
 }
 
+.adventuredescription div::first-letter {
+  font-size: 6vw;
+}
+
+@media (min-width: 700px) {
+
+  
+  .adventureinfo {
+    max-width: 75vw;
+    font-size: 3vw;
+  }
+
+  .adventuredescription {
+    font-size: 2.5vw;
+  }
+
+  .adventuredescription div::first-letter {
+    font-size: 3.5vw;
+  }
+
+}
 
 /*footer*/
 
@@ -352,19 +393,4 @@ text-align: right;
 
   .footer-nav {
     display: none;
-  }
-
-  @media (min-width: 700px) {
-
-    .cardinfo table {
-      font-size: 3vw;
-    }
-  
-    .characterinfo table {
-      font-size: 35px;
-    }
-  
-    .adventuredescription {
-      font-size: 2.5vw;
-    }
   }
