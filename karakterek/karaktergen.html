@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" type="text/css" href="../sarkanylovas.css">
+  <title>A Sárkánylovasok kalandjai</title>
+  <link rel="icon" type="image/x-icon" href="../contents/favicon.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <script src="script.js" defer></script>
+</head>
+
+<header>
+  <nav id="header-nav">
+    <ul>
+      <li><a href="../index.html" class="">Főoldal</a></li>
+      <li><a href="../kalandok/index.html" class="">Kalandok</a></li>
+      <li><a href="#" class="active">Karakterek</a></li>
+    </ul>
+  </nav>
+</header>
+<body>
+
+    <form>
+        <label for="inputSzoveg">Szöveg:</label>
+        <input type="text" id="inputSzoveg" name="inputSzoveg">
+    </form>
+    
+    <script>
+        const inputElem = document.getElementById('inputSzoveg');
+    
+        inputElem.addEventListener('input', function() {
+            // Az 'input' esemény bekövetkezésekor elküldheted az adatot vagy végrehajthatsz további műveleteket.
+            const inputValue = inputElem.value;
+            console.log('Beküldött adat:', inputValue);
+    
+            // Itt hívhatod meg az adat elküldéséhez szükséges kódot, például AJAX vagy más hálózati hívást.
+            // Például:
+            // sendFormDataToServer(inputValue);
+        });
+    </script>
+
+<select id="dropdown-select">
+  <option value=1>1</option>
+  <option value=2>2</option>
+  <option value=3>3</option>
+</select>
+
+<p>Te választottad: <span id="selected-value">Nincs kiválasztva</span></p>
+
+<script>
+  const dropdownSelect = document.getElementById("dropdown-select");
+  const selectedValue = document.getElementById("selected-value");
+
+  dropdownSelect.addEventListener("change", function() {
+      selectedValue.textContent = dropdownSelect.value*2;
+  });
+</script>
+
+</body>
+<footer>
+  <div class="wrapper">
+    <nav class="footer-nav">
+      <a href="#">Back to Top</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Privacy</a>
+    </nav>
+    <div>&copy;2023 <strong><a href="https://molnarmartinzoltan.hu">Molnár Martin Zoltán</a></strong>, All Rights Reserved</div>
+  </div>
+</footer>
+</html>

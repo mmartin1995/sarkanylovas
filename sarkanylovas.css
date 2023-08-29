@@ -5,7 +5,7 @@
   body {
     font-family: 'Caveat', cursive;
     text-align: center;
-    background-color: #ffe9d1;
+    background-color: hsl(31, 100%, 91%);
     margin: 45px auto 0 auto;
     position: relative;
     font-size: 5vw;
@@ -66,7 +66,7 @@ header {
     top: 0;
     right: 0;
     width: 100vw;
-    background-color: #c0916a;
+    background-color: hsl(27, 41%, 58%);
     text-align: center;
     box-shadow:  0px 1px 10px  rgb(0, 0, 0);
     z-index: 1;
@@ -81,7 +81,7 @@ header {
   
   #header-nav a:hover {
     background-color: #ffe9d1;
-    transition: background-color .2s ease-in-out;
+    transition: background-color .35s ease-in-out;
   }
   
   #header-nav .active {
@@ -103,7 +103,7 @@ ________________________________________________________________________________
 */
 
 .section1 {
-  background-color: #c0916a79;
+  background-color: hsl(28, 52%, 75%);
   padding: 10px 10vw 10px 10vw;
 }
 
@@ -387,3 +387,4 @@ ________________________________________________________________________________
   .footer-nav {
     display: none;
   }
+  
