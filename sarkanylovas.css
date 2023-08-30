@@ -9,7 +9,21 @@
     margin: 45px auto 0 auto;
     position: relative;
     font-size: 5vw;
+    background-image: url(./contents/wallpaper–mobil.png);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: top;
+    background-size: contain;
+}
 
+@media (min-width: 1024px) {
+  body {
+    background-image: url(./contents/wallpaper-desktop.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
 }
 
 a {
@@ -103,7 +117,7 @@ ________________________________________________________________________________
 */
 
 .section1 {
-  background-color: hsl(28, 52%, 75%);
+  background-color: hsl(28, 52%, 75%, 0.450);
   padding: 10px 10vw 10px 10vw;
 }
 
@@ -361,7 +375,7 @@ ________________________________________________________________________________
   .wrapper {
     position: absolute;
     font-family: 'Caveat', cursive;
-    background-color:#c0916a94;
+    background-color:#cfc2b780;
     width: 100vw;
     text-align: center;
     padding: 5px 20vw 5px 20vw;
@@ -376,7 +390,7 @@ ________________________________________________________________________________
   }
   
   footer a:hover {
-    color:rgba(68, 61, 61, 0.767);
+    color:rgba(68, 65, 61, 0.767);
     transition: .2s ease-in-out;
   }
   
