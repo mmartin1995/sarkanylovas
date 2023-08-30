@@ -346,7 +346,7 @@ ________________________________________________________________________________
 
   
   .adventureinfo {
-    width: 75vw;
+    width: 65vw;
     font-size: 2.8vw;
   }
   
@@ -355,12 +355,13 @@ ________________________________________________________________________________
   }
 
   .adventuredescription {
-    font-size: 2.3vw;
+    max-width: 60vw;
+    font-size: 2vw;
     width: 75vw;
   }
 
   .adventuredescription div::first-letter {
-    font-size: 3.5vw;
+    font-size: 2.7vw;
   }
 
 }

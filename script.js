@@ -10,8 +10,8 @@ function handleScroll() {
   var scrollPosition = window.scrollY;
 
   // Háttérszín beállítása a görgetés pozíciójától függően
-  var hue = scrollPosition * -0.05 + 90; // Az árnyalat értéke a görgetés pozíciójától függ
-  var saturation = scrollPosition * -0.09 + 100;
+  var hue = scrollPosition * -0.01 + 90; // Az árnyalat értéke a görgetés pozíciójától függ
+  var saturation = scrollPosition * -0.04 + 100;
   var backgroundColor = `hsl(31, ${saturation}%, ${hue}%)`;
 
   body.style.backgroundColor = backgroundColor;
