@@ -2,28 +2,40 @@
     box-sizing: border-box;
   }
   
-  body {
-    font-family: 'Caveat', cursive;
-    text-align: center;
-    background-color: hsl(31, 100%, 91%);
-    margin: 45px auto 0 auto;
-    position: relative;
-    font-size: 5vw;
-    background-image: url(./contents/wallpaper–mobil.png);
-    background-attachment: fixed;
-    background-repeat: repeat;
-    background-position: top;
-    background-size: contain;
+body {
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  background-color: hsl(31, 100%, 91%);
+  margin: 45px auto 0 auto;
+  position: relative;
+  font-size: 5vw;
 }
 
-@media (min-width: 1024px) {
-  body {
+#backgroundimage {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./contents/wallpaper–mobil.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100vw;
+  position: fixed;
+  z-index: -1;
+  filter: invert(60%);
+}
+
+  @media (min-height: 768px) {
+
+  }
+
+@media (min-width: 768px) {
+  #backgroundimage {
     background-image: url(./contents/wallpaper-desktop.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
     background-size: contain;
-}
+  }
 }
 
 a {
@@ -117,7 +129,7 @@ ________________________________________________________________________________
 */
 
 .section1 {
-  background-color: hsl(28, 52%, 75%, 0.450);
+  /*background-color: hsl(28, 52%, 75%, 0.450);*/
   padding: 10px 10vw 10px 10vw;
 }
 
