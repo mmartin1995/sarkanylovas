@@ -179,7 +179,7 @@ ________________________________________________________________________________
   margin: 10px 0 10px 0;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
 
   .section1 {
     padding: 10px 20vw 10px 20vw;
@@ -267,7 +267,7 @@ _____________________________________________________________________
 text-decoration: none;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .charactercard {
     max-width: 325px;
     display: inline-block;
@@ -285,7 +285,7 @@ text-decoration: none;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
 
   .cardinfo table {
     font-size: 3vw;
@@ -354,16 +354,20 @@ ________________________________________________________________________________
   margin: 1vw auto;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
 
   
   .adventureinfo {
     width: 65vw;
-    font-size: 2.8vw;
+    font-size: 2vw;
   }
   
+  .adventureinfo h1 {
+    font-size: 3vw;
+}
+
   .adventureinfo h2 {
-    font-size: 3.5vw;
+    font-size: 2.5vw;
   }
 
   .adventuredescription {
