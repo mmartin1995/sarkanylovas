@@ -7,5 +7,5 @@ class handler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
         self.end_headers()
-        self.wfile.write(f"Hello World from Python! The current time is {datetime.now()}".encode())
+        self.wfile.write(f"Hello, the current time is {datetime.now()}".encode())
         return
