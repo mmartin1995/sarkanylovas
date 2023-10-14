@@ -1,7 +1,9 @@
 {
   "name": "sarkanylovas",
   "version": 2,
-
+  "dependencies": {
+    "@supabase/supabase-js": "^1.28.5" // használja a legfrissebb verziót
+}
   "env": {
   },
   "build": {
