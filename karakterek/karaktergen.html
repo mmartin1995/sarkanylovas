@@ -68,6 +68,42 @@
       selectedValue.textContent = dropdownSelect.value*2;
   });
 </script>
+
+
+
+<iframe class="airtable-embed" 
+src="https://airtable.com/embed/appUqQ5Q5LtR0q4F8/shrmOWHZCjr0tC0oN?backgroundColor=cyan" 
+frameborder="0" onmousewheel="" width="100%" height="60vh" style="background: transparent; border: 1px solid #ccc;">
+</iframe>
+
+
+<div class="form-container">
+  <input type="number" id="inputField" placeholder="Enter a number">
+  <button onclick="calculateAndSend()">Submit</button>
+</div>
+
+<script>
+  async function calculateAndSend() {
+    // Számítási logika
+    const inputVal = document.getElementById('inputField').value;
+    const calculatedVal = inputVal * 2; // egyszerű szorzás, mint példa
+
+    // Küldjük az adatokat a Vercel Function-nek
+    const response = await fetch('/api/sendToAirtable', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ input: inputVal, calculated: calculatedVal })
+    });
+
+    const result = await response.json();
+    console.log(result); // Válasz kezelése, hibakezelés, stb.
+  }
+</script>
+
+
+
 <footer>
   <div class="wrapper">
     <nav class="footer-nav">
