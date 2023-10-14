@@ -11,11 +11,8 @@
       }
     ],
     "env": {
-      "API_KEY": "my-api-key"
-    }
-    "dependencies": {
-        "@supabase/supabase-js": "^1.0.0"
-      }
-
-}
+      "API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFiYmZ0ZG9jbXJzZG53eGluZ3luIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTcyOTQyMzUsImV4cCI6MjAxMjg3MDIzNX0.6bcaVBEZPozM2-n63jgSImn22H5GbycjcCykwesM2cc"
+    },
+    "cleanUrls": true
+  }
   
