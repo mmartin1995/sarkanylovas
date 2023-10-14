@@ -9,36 +9,16 @@
   ],
   "routes": [
     {
-      "src": "/api/.*",
-      "dest": "/api/index.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1.html"
-    },
-    {
       "src": "/about",
       "dest": "/about.html"
     }
   ],
+  "env": {
+    "API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFiYmZ0ZG9jbXJzZG53eGluZ3luIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTcyOTQyMzUsImV4cCI6MjAxMjg3MDIzNX0.6bcaVBEZPozM2-n63jgSImn22H5GbycjcCykwesM2cc"
+  },
   "build": {
     "env": {
       "BUILD_ENV_VARIABLE": "my_build_value"
     }
-  },
-  "cleanUrls": true,
-  "crons": [
-    {
-      "path": "/api/every-minute",
-      "schedule": "* * * * *"
-    },
-    {
-      "path": "/api/every-hour",
-      "schedule": "0 * * * *"
-    },
-    {
-      "path": "/api/every-day",
-      "schedule": "0 0 * * *"
-    }
-  ]
+  }
 }
