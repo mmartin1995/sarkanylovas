@@ -1,20 +1,6 @@
 {
   "name": "sarkanylovas",
   "version": 2,
-  "routes": [
-    {
-      "src": "/api/.*",
-      "dest": "/api/index.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1.html"
-    },
-    {
-      "src": "/about",
-      "dest": "/about.html"
-    }
-  ],
   "cleanUrls": true,
   "buildCommand": "next build"
 }
