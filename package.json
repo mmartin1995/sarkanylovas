@@ -1,5 +1,5 @@
 {
-    "dependencies": {
-    "@supabase/supabase-js": "^1.28.5" // használja a legfrissebb verziót
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.1"
   }
 }
