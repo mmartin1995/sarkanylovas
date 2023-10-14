@@ -15,11 +15,6 @@
       "dest": "/about.html"
     }
   ],
-  "build": {
-    "env": {
-      "BUILD_ENV_VARIABLE": "my_build_value"
-    }
-  },
   "cleanUrls": true,
   "crons": [
     {
