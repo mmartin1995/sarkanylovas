@@ -1,6 +1,12 @@
 {
   "name": "sarkanylovas",
   "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
   "routes": [
     {
       "src": "/api/.*",
@@ -15,6 +21,11 @@
       "dest": "/about.html"
     }
   ],
+  "build": {
+    "env": {
+      "BUILD_ENV_VARIABLE": "my_build_value"
+    }
+  },
   "cleanUrls": true,
   "crons": [
     {
