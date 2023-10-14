@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // További mezők értékeit is be kell olvasni
 
         try {
-            const response = await fetch('/api/addRecord', {
+            const response = await fetch('/api/addRecord.js', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
