@@ -3,7 +3,7 @@
 import { createClient } from '@supabase/supabase-js';
 
 const supabaseUrl = 'https://abbftdocmrsdnwxingyn.supabase.co';
-const supabaseKey = 'API_KEY';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFiYmZ0ZG9jbXJzZG53eGluZ3luIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTcyOTQyMzUsImV4cCI6MjAxMjg3MDIzNX0.6bcaVBEZPozM2-n63jgSImn22H5GbycjcCykwesM2cc';
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
