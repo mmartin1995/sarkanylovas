@@ -40,6 +40,5 @@
       "path": "/api/every-day",
       "schedule": "0 0 * * *"
     }
-  ],
-  "buildCommand": "next build"
+  ]
 }
