@@ -14,7 +14,7 @@ export default async function handler(req, res) {
 
             // Új rekord hozzáadása a Supabase adatbázisba
             const { data, error } = await supabase
-                .from('sarkanylovas-teszt')
+                .from('sarkanylovas-teszt-1')
                 .insert([{ name /* további mezők */ }]);
 
             if (error) {
